@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " E ",
+    "CSC",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:end_crystal"
+    },
+    "S": {
+      "item": "minecraft:iron_sword",
+      "components": {
+        "minecraft:custom_model_data": 101
+      }
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Cutlass — Tier I (Upgraded)\",\"color\":\"light_purple\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"⚔ Ender-infused pirate blade\",\"color\":\"dark_purple\",\"italic\":false}",
+        "{\"text\":\"+ 10 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"+ 2.0 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"• Cannot block attacks\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"• Loses durability on hit\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"• Enhanced enchantments\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"TIER I UPGRADED\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}"
+      ],
+      "minecraft:custom_model_data": 102,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t1up_damage",
+            "amount": 9.0,
+            "operation": "add_value"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t1up_speed",
+            "amount": -2.0,
+            "operation": "add_value"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:sharpness": 3,
+          "minecraft:looting": 2,
+          "minecraft:sweeping_edge": 2
+        },
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 400
+    }
+  }
+}

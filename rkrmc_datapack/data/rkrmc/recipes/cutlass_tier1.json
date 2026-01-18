@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CLC",
+    " S ",
+    " L "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Cutlass — Tier I\",\"color\":\"gold\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"⚔ A swift pirate blade\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\"+ 7 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"+ 1.6 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"• Cannot block attacks\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"• Loses durability on hit\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"• Enchantable\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"TIER I\",\"color\":\"gold\",\"bold\":true,\"italic\":false}"
+      ],
+      "minecraft:custom_model_data": 101,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t1_damage",
+            "amount": 6.0,
+            "operation": "add_value"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t1_speed",
+            "amount": -2.4,
+            "operation": "add_value"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:max_damage": 250
+    }
+  }
+}

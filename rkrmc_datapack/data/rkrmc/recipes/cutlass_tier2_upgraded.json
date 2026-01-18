@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ECE",
+    " S ",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:end_crystal"
+    },
+    "S": {
+      "item": "minecraft:iron_sword",
+      "components": {
+        "minecraft:custom_model_data": 103
+      }
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Cutlass — Tier II (Upgraded)\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"⚔ LEGENDARY WEAPON ⚔\",\"color\":\"gold\",\"bold\":true,\"italic\":false}",
+        "{\"text\":\"+ 23.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"+ 2.5 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"+ 0.15 Knockback Resistance\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"• Unbreakable\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}",
+        "{\"text\":\"• Full shield blocking\",\"color\":\"green\",\"italic\":false}",
+        "{\"text\":\"• Works in both hands\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"• Overpowered enchantments\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"TIER II UPGRADED\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+        "{\"text\":\"⚡ ULTIMATE POWER ⚡\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}"
+      ],
+      "minecraft:custom_model_data": 104,
+      "minecraft:unbreakable": {},
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t2up_damage",
+            "amount": 22.5,
+            "operation": "add_value"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t2up_speed",
+            "amount": -1.5,
+            "operation": "add_value"
+          },
+          {
+            "type": "minecraft:knockback_resistance",
+            "slot": "mainhand",
+            "id": "rkrmc:cutlass_t2up_kb",
+            "amount": 0.15,
+            "operation": "add_value"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:sharpness": 10,
+          "minecraft:looting": 5,
+          "minecraft:sweeping_edge": 5,
+          "minecraft:fire_aspect": 3,
+          "minecraft:knockback": 3,
+          "minecraft:unbreaking": 10
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}
