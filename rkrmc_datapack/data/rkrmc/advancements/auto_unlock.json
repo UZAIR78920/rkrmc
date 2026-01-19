@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "auto": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "rkrmc:cutlass_tier1",
+      "rkrmc:cutlass_tier1_upgraded",
+      "rkrmc:cutlass_tier2",
+      "rkrmc:cutlass_tier2_upgraded"
+    ]
+  }
+}
