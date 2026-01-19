@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " S ",
+    "LLL"
+  ],
+  "key": {
+    "C": { "item": "minecraft:copper_ingot" },
+    "L": { "item": "minecraft:leather" },
+    "S": {
+      "item": "minecraft:iron_sword",
+      "components": {
+        "!minecraft:custom_data": {}
+      }
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Cutlass — Tier I\",\"color\":\"gold\",\"italic\":false}",
+      "minecraft:custom_model_data": 101,
+      "minecraft:custom_data": {
+        "rkrmc_cutlass": 1,
+        "cutlass_tier": 1,
+        "cutlass_upgraded": 0
+      }
+    }
+  }
+}
