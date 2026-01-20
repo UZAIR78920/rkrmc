@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Cutlass — Tier I\",\"color\":\"gold\",\"italic\":false}",
+                "minecraft:custom_model_data": 101,
+                "minecraft:custom_data": {
+                  "rkrmc_cutlass": 1,
+                  "cutlass_tier": 1,
+                  "cutlass_upgraded": 0
+                },
+                "minecraft:damage": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:attack_damage",
+                      "id": "cutlass_tier1_damage",
+                      "amount": 6.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:attack_speed",
+                      "id": "cutlass_tier1_speed",
+                      "amount": -2.3,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:attack_damage",
+                      "id": "cutlass_tier1_damage",
+                      "amount": 6.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:attack_speed",
+                      "id": "cutlass_tier1_speed",
+                      "amount": -2.3,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"Tier 1 Cutlass\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"Cannot block hits\",\"color\":\"dark_gray\",\"italic\":false}",
+                  "{\"text\":\"Loses durability on hit\",\"color\":\"dark_gray\",\"italic\":false}",
+                  "{\"text\":\"Enchantable\",\"color\":\"green\",\"italic\":false}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

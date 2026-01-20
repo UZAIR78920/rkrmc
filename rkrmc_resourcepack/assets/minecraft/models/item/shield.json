@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/shield",
+  "textures": {
+    "layer0": "minecraft:item/shield"
+  },
+  "overrides": [
+    {
+      "predicate": { "blocking": 1 },
+      "model": "minecraft:item/shield_blocking"
+    },
+    {
+      "predicate": { "blocking": 0 },
+      "model": "minecraft:item/shield_blocking"
+    },
+    {
+      "predicate": { "custom_model_data": 103 },
+      "model": "rkrmc:item/cutlass_tier2"
+    },
+    {
+      "predicate": { "custom_model_data": 104 },
+      "model": "rkrmc:item/cutlass_tier2_upgraded"
+    }
+  ]
+}

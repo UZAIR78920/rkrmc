@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    " C ",
+    " R "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:iron_sword",
+      "components": {
+        "minecraft:custom_data": {
+          "rkrmc_cutlass": 1,
+          "cutlass_tier": 1,
+          "cutlass_upgraded": 0
+        }
+      }
+    },
+    "R": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Cutlass — Tier I (Upgraded)\",\"color\":\"light_purple\",\"italic\":false}",
+      "minecraft:custom_model_data": 102,
+      "minecraft:custom_data": {
+        "rkrmc_cutlass": 1,
+        "cutlass_tier": 1,
+        "cutlass_upgraded": 1
+      },
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:sharpness": 5,
+          "minecraft:smite": 5,
+          "minecraft:bane_of_arthropods": 5,
+          "minecraft:sweeping_edge": 3,
+          "minecraft:fire_aspect": 2,
+          "minecraft:knockback": 2,
+          "minecraft:looting": 4,
+          "minecraft:mending": 1,
+          "minecraft:unbreaking": 4
+        },
+        "show_in_tooltip": false
+      },
+      "minecraft:lore": [
+        "{\"text\":\"Tier 1 Cutlass (Upgraded)\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\"Cannot block hits\",\"color\":\"dark_gray\",\"italic\":false}",
+        "{\"text\":\"Loses durability on hit\",\"color\":\"dark_gray\",\"italic\":false}",
+        "{\"text\":\"Not enchantable\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"\",\"italic\":false}",
+        "{\"text\":\"Sharpness V\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Smite V\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Bane of Arthropods V\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Sweeping Edge III\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Fire Aspect II\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Knockback II\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Looting IV\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Mending I\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"Unbreaking IV\",\"color\":\"aqua\",\"italic\":false}"
+      ]
+    }
+  }
+}
